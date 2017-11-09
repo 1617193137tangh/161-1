@@ -1,0 +1,51 @@
+班学生：
+   '中小学生分类'
+   stuCount = 0
+ 
+   def __init __（self，stu_no，name，stu_class，male）：
+      self.stu_no = stu_no
+      self.name = name
+      self.stu_class = stu_class
+      self.male =男
+      Student.stuCount + = 1
+
+   def study（self）：
+      打印“学生可以学习”
+ 
+   def getStuCount（self）：
+      打印Student.stuCount
+ 
+      
+班级PrimaryStudent（学生）：
+   primarystuCount = 0
+                     
+   def __init __（self，stu_no，name，stu_class，male）：
+      self.stu_no = stu_no
+      self.name = name
+      self.stu_class = stu_class
+      self.male =男
+      Student.stuCount + = 1
+      PrimaryStudent.primarystuCount + = 1
+   def recite（self）：
+      打印“小学生可以背诵”
+ 
+   def口语（个体经营）：
+      打印“小学生可口语”
+ 
+ 
+班级MiddleStudent（学生）：
+   middlestuCount = 0
+   
+   def __init __（self，stu_no，name，stu_class，male）：
+      self.stu_no = stu_no
+      self.name = name
+      self.stu_class = stu_class
+      self.male =男
+      Student.stuCount + = 1
+      MiddleStudent.middlestuCount + = 1
+      
+   def化学（个体经营）：
+      打印“中学生可化学”
+ 
+   def Pyhics（self）：
+      打印“中学生可以pyhics”
